@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="@string/english_news"
+            >
+            <menu>
+                <item
+                    android:id="@+id/nav_india_today"
+                    android:title="@string/india_today"
+                    android:icon="@drawable/ic_india_today"/>
+                <item
+                    android:id="@+id/nav_cnn_news"
+                    android:title="CNN-News"
+                    android:icon="@drawable/ic_cnn"/>
+                <item
+                    android:id="@+id/nav_times_now"
+                    android:title="@string/times_now"
+                    android:icon="@drawable/ic_timesnow"/>
+            </menu>
+        </item>
+
+    </group>
+    <item
+        android:title="@string/hindi_news">
+        <menu>
+
+            <item
+                android:id="@+id/nav_aajTak"
+                android:icon="@drawable/ic_aaj_tak"
+                android:title="Aaj Tak"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/nav_zeeNews"
+                android:icon="@drawable/ic_zee_news"
+                android:title="Zee News"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/nav_abpNews"
+                android:icon="@drawable/ic_abp"
+                android:title="Abp News"
+                tools:ignore="HardcodedText" />
+        </menu>
+
+    </item>
+</menu>

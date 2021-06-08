@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_india_today">
+
+    <fragment
+        android:id="@+id/nav_india_today"
+        android:name="com.news.project.khabar.ui.indiatoday.IndiaToday"
+        android:label="India Today"
+        tools:layout="@layout/fragment_india_today" />
+
+    <fragment
+        android:id="@+id/nav_cnn_news"
+        android:name="com.news.project.khabar.ui.cnn.CnnNews"
+        android:label="CNN-News-18"
+        tools:layout="@layout/fragment_cnn" />
+
+    <fragment
+        android:id="@+id/nav_times_now"
+        android:name="com.news.project.khabar.ui.timesnow.TimesNow"
+        android:label="Times Now"
+        tools:layout="@layout/fragment_times_now" />
+    <fragment
+        android:id="@+id/nav_aajTak"
+        android:name="com.news.project.khabar.ui.aajtak.AajTak"
+        android:label="Aaj Tak"
+        tools:layout="@layout/fragment_aaj_tak" />
+    <fragment
+        android:id="@+id/nav_abpNews"
+        android:name="com.news.project.khabar.ui.abpnews.AbpNews"
+        android:label="Abp News"
+        tools:layout="@layout/fragment_abp_news" />
+    <fragment
+        android:id="@+id/nav_zeeNews"
+        android:name="com.news.project.khabar.ui.zeenews.ZeeNews"
+        android:label="Zee News"
+        tools:layout="@layout/fragment_zee_news" />
+
+</navigation>
